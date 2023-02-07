@@ -1,0 +1,4 @@
+from server.proto.grpc_server import grpc_init
+
+if "__main__" == __name__:
+    grpc_init()
